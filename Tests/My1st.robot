@@ -8,7 +8,7 @@ TC01 Login validation
     Make appointment
     User Login to Application  John Doe  ThisIsNotAPassword
 TC02 Booking Appointments Validation
-    Enter the infomation in Booking page
+    Enter the infomation in Booking page  Hongkong CURA Healthcare Center  02/02/2020  testingNew comment
     Verify the Booking Confirmation page
 TC03 Return Home validation
     Home page Navigation

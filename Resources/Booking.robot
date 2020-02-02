@@ -17,9 +17,10 @@ User Login to Application
     Click Element  ${login}
     Capture Page Screenshot
 Enter the infomation in Booking page
-    Select From List By Label  id:combo_facility  Hongkong CURA Healthcare Center
-    Input Text  id:txt_visit_date  02/01/2020
-    Input Text  id:txt_comment  testing comment
+    [Arguments]  ${facility}  ${date}  ${comments}
+    Select From List By Label  id:combo_facility  ${facility}
+    Input Text  id:txt_visit_date  ${date}
+    Input Text  id:txt_comment  ${comments}
     Capture Page Screenshot
     Click Element  id:btn-book-appointment
     Capture Page Screenshot
